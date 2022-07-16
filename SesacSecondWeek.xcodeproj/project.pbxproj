@@ -9,17 +9,29 @@
 /* Begin PBXBuildFile section */
 		8F0A22AF287C11D60062B2D2 /* EmotionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0A22AE287C11D60062B2D2 /* EmotionViewController.swift */; };
 		8F186B66287D21250054AD29 /* SegmentedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F186B65287D21250054AD29 /* SegmentedViewController.swift */; };
+		8F4192842880EA2C005BD315 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F4192832880EA2C005BD315 /* Storyboard.storyboard */; };
+		8F4192862880EFB8005BD315 /* TransitionFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4192852880EFB8005BD315 /* TransitionFirstViewController.swift */; };
+		8F4192882880FDFF005BD315 /* TransitionSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4192872880FDFF005BD315 /* TransitionSecondViewController.swift */; };
 		8F5AEB3F287BA3E50095C3AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5AEB3E287BA3E50095C3AD /* AppDelegate.swift */; };
 		8F5AEB41287BA3E50095C3AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5AEB40287BA3E50095C3AD /* SceneDelegate.swift */; };
 		8F5AEB43287BA3E50095C3AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5AEB42287BA3E50095C3AD /* ViewController.swift */; };
 		8F5AEB46287BA3E50095C3AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F5AEB44287BA3E50095C3AD /* Main.storyboard */; };
 		8F5AEB48287BA3E60095C3AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F5AEB47287BA3E60095C3AD /* Assets.xcassets */; };
 		8F5AEB4B287BA3E60095C3AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F5AEB49287BA3E60095C3AD /* LaunchScreen.storyboard */; };
+		8F71D584287FA67E006E8F8B /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F71D583287FA67E006E8F8B /* Setting.storyboard */; };
+		8F71D586287FA803006E8F8B /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F71D585287FA803006E8F8B /* Search.storyboard */; };
+		8F71D589287FAEDD006E8F8B /* SideMenu in Frameworks */ = {isa = PBXBuildFile; productRef = 8F71D588287FAEDD006E8F8B /* SideMenu */; };
+		8F71D592287FB044006E8F8B /* SideMenu in Frameworks */ = {isa = PBXBuildFile; productRef = 8F71D591287FB044006E8F8B /* SideMenu */; };
+		8F8BBEA9287E639400ABBDD5 /* churros@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F8BBEA8287E639400ABBDD5 /* churros@3x.png */; };
+		8FDEDC22287FBBFC00D779BD /* TextFieldEffects in Frameworks */ = {isa = PBXBuildFile; productRef = 8FDEDC21287FBBFC00D779BD /* TextFieldEffects */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8F0A22AE287C11D60062B2D2 /* EmotionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionViewController.swift; sourceTree = "<group>"; };
 		8F186B65287D21250054AD29 /* SegmentedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedViewController.swift; sourceTree = "<group>"; };
+		8F4192832880EA2C005BD315 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		8F4192852880EFB8005BD315 /* TransitionFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionFirstViewController.swift; sourceTree = "<group>"; };
+		8F4192872880FDFF005BD315 /* TransitionSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionSecondViewController.swift; sourceTree = "<group>"; };
 		8F5AEB3B287BA3E50095C3AD /* SesacSecondWeek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SesacSecondWeek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F5AEB3E287BA3E50095C3AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F5AEB40287BA3E50095C3AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +40,9 @@
 		8F5AEB47287BA3E60095C3AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F5AEB4A287BA3E60095C3AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F5AEB4C287BA3E60095C3AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F71D583287FA67E006E8F8B /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
+		8F71D585287FA803006E8F8B /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
+		8F8BBEA8287E639400ABBDD5 /* churros@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "churros@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,16 +50,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FDEDC22287FBBFC00D779BD /* TextFieldEffects in Frameworks */,
+				8F71D592287FB044006E8F8B /* SideMenu in Frameworks */,
+				8F71D589287FAEDD006E8F8B /* SideMenu in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F4192822880EA1E005BD315 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				8F4192832880EA2C005BD315 /* Storyboard.storyboard */,
+				8F4192852880EFB8005BD315 /* TransitionFirstViewController.swift */,
+				8F4192872880FDFF005BD315 /* TransitionSecondViewController.swift */,
+			);
+			path = Transition;
+			sourceTree = "<group>";
+		};
 		8F5AEB32287BA3E50095C3AD = {
 			isa = PBXGroup;
 			children = (
-				8F186B65287D21250054AD29 /* SegmentedViewController.swift */,
+				8F4192822880EA1E005BD315 /* Transition */,
 				8F5AEB3D287BA3E50095C3AD /* SesacSecondWeek */,
 				8F5AEB3C287BA3E50095C3AD /* Products */,
 			);
@@ -61,11 +89,15 @@
 		8F5AEB3D287BA3E50095C3AD /* SesacSecondWeek */ = {
 			isa = PBXGroup;
 			children = (
+				8F186B65287D21250054AD29 /* SegmentedViewController.swift */,
 				8F5AEB3E287BA3E50095C3AD /* AppDelegate.swift */,
 				8F5AEB40287BA3E50095C3AD /* SceneDelegate.swift */,
 				8F5AEB42287BA3E50095C3AD /* ViewController.swift */,
 				8F0A22AE287C11D60062B2D2 /* EmotionViewController.swift */,
+				8F8BBEA8287E639400ABBDD5 /* churros@3x.png */,
 				8F5AEB44287BA3E50095C3AD /* Main.storyboard */,
+				8F71D583287FA67E006E8F8B /* Setting.storyboard */,
+				8F71D585287FA803006E8F8B /* Search.storyboard */,
 				8F5AEB47287BA3E60095C3AD /* Assets.xcassets */,
 				8F5AEB49287BA3E60095C3AD /* LaunchScreen.storyboard */,
 				8F5AEB4C287BA3E60095C3AD /* Info.plist */,
@@ -89,6 +121,11 @@
 			dependencies = (
 			);
 			name = SesacSecondWeek;
+			packageProductDependencies = (
+				8F71D588287FAEDD006E8F8B /* SideMenu */,
+				8F71D591287FB044006E8F8B /* SideMenu */,
+				8FDEDC21287FBBFC00D779BD /* TextFieldEffects */,
+			);
 			productName = SesacSecondWeek;
 			productReference = 8F5AEB3B287BA3E50095C3AD /* SesacSecondWeek.app */;
 			productType = "com.apple.product-type.application";
@@ -117,6 +154,11 @@
 				Base,
 			);
 			mainGroup = 8F5AEB32287BA3E50095C3AD;
+			packageReferences = (
+				8F71D587287FAEDD006E8F8B /* XCRemoteSwiftPackageReference "SideMenu" */,
+				8FDEDC1F287FBA7F00D779BD /* XCRemoteSwiftPackageReference "TextFieldEffects" */,
+				8FDEDC23287FBC6200D779BD /* XCRemoteSwiftPackageReference "FSCalendar" */,
+			);
 			productRefGroup = 8F5AEB3C287BA3E50095C3AD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -133,6 +175,10 @@
 			files = (
 				8F5AEB4B287BA3E60095C3AD /* LaunchScreen.storyboard in Resources */,
 				8F5AEB48287BA3E60095C3AD /* Assets.xcassets in Resources */,
+				8F71D584287FA67E006E8F8B /* Setting.storyboard in Resources */,
+				8F8BBEA9287E639400ABBDD5 /* churros@3x.png in Resources */,
+				8F71D586287FA803006E8F8B /* Search.storyboard in Resources */,
+				8F4192842880EA2C005BD315 /* Storyboard.storyboard in Resources */,
 				8F5AEB46287BA3E50095C3AD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,8 +192,10 @@
 			files = (
 				8F0A22AF287C11D60062B2D2 /* EmotionViewController.swift in Sources */,
 				8F5AEB43287BA3E50095C3AD /* ViewController.swift in Sources */,
+				8F4192862880EFB8005BD315 /* TransitionFirstViewController.swift in Sources */,
 				8F186B66287D21250054AD29 /* SegmentedViewController.swift in Sources */,
 				8F5AEB3F287BA3E50095C3AD /* AppDelegate.swift in Sources */,
+				8F4192882880FDFF005BD315 /* TransitionSecondViewController.swift in Sources */,
 				8F5AEB41287BA3E50095C3AD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,7 +348,7 @@
 				INFOPLIST_FILE = SesacSecondWeek/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Setting;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -329,7 +377,7 @@
 				INFOPLIST_FILE = SesacSecondWeek/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Setting;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -368,6 +416,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8F71D587287FAEDD006E8F8B /* XCRemoteSwiftPackageReference "SideMenu" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jonkykong/SideMenu.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		8FDEDC1F287FBA7F00D779BD /* XCRemoteSwiftPackageReference "TextFieldEffects" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/raulriera/TextFieldEffects.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		8FDEDC23287FBC6200D779BD /* XCRemoteSwiftPackageReference "FSCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WenchaoD/FSCalendar.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8F71D588287FAEDD006E8F8B /* SideMenu */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8F71D587287FAEDD006E8F8B /* XCRemoteSwiftPackageReference "SideMenu" */;
+			productName = SideMenu;
+		};
+		8F71D591287FB044006E8F8B /* SideMenu */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8F71D587287FAEDD006E8F8B /* XCRemoteSwiftPackageReference "SideMenu" */;
+			productName = SideMenu;
+		};
+		8FDEDC21287FBBFC00D779BD /* TextFieldEffects */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8FDEDC1F287FBA7F00D779BD /* XCRemoteSwiftPackageReference "TextFieldEffects" */;
+			productName = TextFieldEffects;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8F5AEB33287BA3E50095C3AD /* Project object */;
 }

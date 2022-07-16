@@ -22,30 +22,23 @@ enum Emotion: String {
 
 class EmotionViewController: UIViewController {
 
-    @IBOutlet weak var label1: UILabel!   //개별 아웃렛 지워도 될듯...But 나중에 헷갈릴수도
-    @IBOutlet weak var label2: UILabel!
-    @IBOutlet weak var label3: UILabel!
-    @IBOutlet weak var label4: UILabel!
-    @IBOutlet weak var label5: UILabel!
-    @IBOutlet weak var label6: UILabel!
-    @IBOutlet weak var label7: UILabel!
-    @IBOutlet weak var label8: UILabel!
-    @IBOutlet weak var label9: UILabel!
-    
+   
     @IBOutlet var labels: [UILabel]!
     
     @IBOutlet var emojiButtons: [UIButton]!
   
-//    var emotionCountDict = ["label1": 0, "label2": 0, "label3": 0, "label4": 0, "label5": 0, "label6": 0, "label7": 0, "label8": 0, "label9": 0 ]
     var emotionCountArray = [0,0,0,0,0,0,0,0,0]
-//    let emotionsArray: [Emotion] = []
+//    let emotionsArray: [Emotion] = 
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         labelSetting()
+        emotionCountDataLoad()
         labelUpdate()
         buttonsSetting()
+        print(emotionCountArray)
+       
 
     }
     func buttonImageSetting() {
@@ -67,15 +60,15 @@ class EmotionViewController: UIViewController {
     }
     func labelUpdate() { //Emotion enum 하나씩 넣은 어레이 만들면, 포문으로 가능할듯.
         
-        label1.text = labelTextSetting(emotion: .slime1, arrayNum: 0) //labels[0].text
-        label2.text = labelTextSetting(emotion: .slime2, arrayNum: 1) //labels[1].text
-        label3.text = labelTextSetting(emotion: .slime3, arrayNum: 2)
-        label4.text = labelTextSetting(emotion: .slime4, arrayNum: 3)
-        label5.text = labelTextSetting(emotion: .slime5, arrayNum: 4)
-        label6.text = labelTextSetting(emotion: .slime6, arrayNum: 5)
-        label7.text = "긴장 \(emotionCountArray[6])"
-        label8.text = "별루 \(emotionCountArray[7])"
-        label9.text = "슬픔 \(emotionCountArray[8])"
+        labels[0].text = labelTextSetting(emotion: .slime1, arrayNum: 0)
+        labels[1].text = labelTextSetting(emotion: .slime2, arrayNum: 1)
+        labels[2].text = labelTextSetting(emotion: .slime3, arrayNum: 2)
+        labels[3].text = labelTextSetting(emotion: .slime4, arrayNum: 3)
+        labels[4].text = labelTextSetting(emotion: .slime5, arrayNum: 4)
+        labels[5].text = labelTextSetting(emotion: .slime6, arrayNum: 5)
+        labels[6].text = labelTextSetting(emotion: .slime6, arrayNum: 6)
+        labels[7].text = labelTextSetting(emotion: .slime6, arrayNum: 7)
+        labels[8].text = labelTextSetting(emotion: .slime6, arrayNum: 8)
         
 //        for n in 0...8 {
 //            labels[n].text = labelTextSetting(emotion: emotionsArray[n], arrayNum: n)
@@ -103,12 +96,19 @@ class EmotionViewController: UIViewController {
         present(alert, animated: true, completion: nil)
     }
     
+    func emotionCountDataLoad() {
+        for n in 0...(emotionCountArray.count - 1) {
+            emotionCountArray[n] = UserDefaults.standard.integer(forKey: "emotionCount\(n)")
+            
+        }
+        print(emotionCountArray)
+    }
     
     @IBAction func emojiPressed(_ sender: UIButton) {
 
         emotionCountArray[sender.tag] += 1
+        UserDefaults.standard.set(emotionCountArray[sender.tag], forKey: "emotionCount\(sender.tag)")
         labelUpdate()
-//        showAlertController()
      
     }
     
